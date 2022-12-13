@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery.js" defer></script>
+	<script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Payment Alert Demo</title>
+</head>
+<body>
+    <!--Ödeme yöntemi dil fonsiyonu-->
+    <!--Main Container-->
+	<div class="flex flex-col items-center justify-center min-h-screen ">
+        <!--Card Container-->
+        <div class="flex flex-col items-center justify-between bg-slate-500 rounded-lg shadow-lg">
+            <h1 class="px-5 py-4 font-bold uppercase">Payment Systems</h1>
+                <div id="gizli1" class="a">
+                    <input type="text" class="m-5 p-3 border-2 border-black rounded-lg" placeholder="Enter your card number">
+                        <div class="flex flex-col items-center justify-center md:flex-row ">
+                            <button class="m-5 p-3 rounded-lg text-white bg-green-500 hover:bg-green-700" onclick="ode()"> Pay </button>
+                            <button class="m-5 p-3 rounded-lg text-white bg-blue-500 hover:bg-blue-700" onclick="gizle()"> Hide </button>
+                        </div>
+			</div>
+	    </div>
+    </div>
+</body>
+</html>
